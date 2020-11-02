@@ -1,0 +1,42 @@
+.taskDiv{
+  border: #264B96 3px solid;
+  border-radius: 5px;
+  margin: 5px;
+  width: 300px;
+  background-color: #FFFFFF;
+}
+
+.taskDiv:hover{
+  background-color: #D0D0D0;
+}
+
+.taskTitle{
+  background-color: #264B96;
+  margin-top: 10px;
+  padding: 5px 0px 5px 10px;
+  color: #FFFFFF;
+}
+
+.okButton{
+  padding: 5px;
+  margin: 5px;
+  background-color: #006F3C;
+  color: #FFFFFF;
+  border-color: #006F3C;
+}
+
+.okButton:hover{
+  background-color: #66A88A;
+}
+
+.cancelButton{
+  padding: 5px;
+  margin: 5px;
+  background-color: #BF212F;
+  color: #FFFFFF;
+  border-color: #BF212F;
+}
+
+.cancelButton:hover{
+  background-color: #D87982;
+}

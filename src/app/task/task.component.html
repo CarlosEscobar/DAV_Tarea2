@@ -1,0 +1,19 @@
+<div class="taskDiv">
+  <div (click)="onTaskClick()">
+    <h3 class="taskTitle">{{name}}</h3>
+    <h4>Estado: {{state}}</h4>
+    <h4>Tiempo Estimado: {{time}}</h4>
+  </div>
+  <hr/>
+  <div id="task_{{name}}_content" style="display:none;">
+    <h4>Descripción</h4>
+    <p>{{description}}</p>
+    <hr/>
+    <h4>Actualizar Estado</h4>
+    <h4 id="task_{{name}}_statemsg"></h4>
+    <div style="padding:5px;">
+      <button class="okButton" (click)="changeState()">Actualizar</button>
+      <button class="cancelButton" (click)="cancelChangeState()">Cancelar</button>
+    </div>
+  </div>
+</div>
